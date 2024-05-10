@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <main> 
-        <div className="grid grid-cols-3 gap-4 text-left align-baseline bg-sky-950 top-padding-500">
+        <div className="grid grid-cols-3 gap-4 text-left align-baseline bg-orange-600">
             <div className="">
               <h2>RVN Services</h2>
               <p>Site designed and maintained by RVN Services. For site related inquiries, contact jgoonan24@gmail.com</p>
@@ -13,6 +13,12 @@ export default function Home() {
               <p>                         </p>
               <p>Email: jgoonan24@gmail.com</p>
               <p>Phone: (347) 261-2903</p>
+            </div>
+            <div>
+                <h2>Other Links</h2>
+                <p>Instagram</p>
+                <p>Customer Review</p>
+                <p>Instagram</p>
             </div>
         </div>
        

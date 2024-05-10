@@ -10,10 +10,10 @@ export default function Home() {
               <a>24/7 Service for the Tri-State Area</a>
             </h2>
           </div>
-          <div className="grid grid-cols-3 gap-4">
-            <button className="hover:bg-cyan-600">Add To Inventory</button>
-            <button className="hover:bg-cyan-600">Request</button>
-            <button className="hover:bg-cyan-600">Search</button>
+          <div className="text-center">
+            <a href="https://forms.gle/xXAN1W5zPhgNR8MM9">
+            <button className="hover:bg-cyan-600">Please Leave a Review</button>
+            </a>
           </div>
         </main>
   
