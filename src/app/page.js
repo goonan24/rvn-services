@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeaderComponent from "./components/header.jsx"
 import InfoComponent from "./components/Info.jsx"
 import FooterComponent from "./components/footer.jsx"
