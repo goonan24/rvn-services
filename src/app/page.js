@@ -1,7 +1,7 @@
 import Image from "next/image";
-import HeaderComponent from "/Users/josephgoonan/Documents/GitHub/rvn-services/src/app/Components/header.jsx"
-import InfoComponent from "/Users/josephgoonan/Documents/GitHub/rvn-services/src/app/Components/Info.jsx"
-import FooterComponent from "/Users/josephgoonan/Documents/GitHub/rvn-services/src/app/Components/footer.jsx"
+import HeaderComponent from "./components/header.jsx"
+import InfoComponent from "./components/Info.jsx"
+import FooterComponent from "./components/footer.jsx"
 
 
 export default function Home() {
