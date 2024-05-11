@@ -2,7 +2,7 @@ export default function Home() {
     return (
       
         <main>
-            <div className="grid grid-cols-3 gap-4 text-left align-baseline ">
+            <div className="grid grid-cols-3 gap-4 text-left align-baseline">
             <div className="">
               <h2>RVN Services</h2>
               <p>- COLLISION REPAIR</p>
