@@ -14,10 +14,10 @@ export default function Home() {
             <a href="https://forms.gle/xXAN1W5zPhgNR8MM9">
             <button className="hover:bg-cyan-600 px-2">Please Leave a Review</button>
             </a>
-            <a href="https://forms.gle/14NRyWUkZSNk8E8S8">
+            <a href="https://forms.gle/3vS4PChLoM8Ni87r5">
             <button className="hover:bg-cyan-600 px-2">Schedule a Service</button>
             </a>
-            <a href="https://photos.app.goo.gl/9jPL6HWqYnpxLbNe8">
+            <a href="https://photos.app.goo.gl/3Lq4qY2shEiCoxw69">
             <button className="hover:bg-cyan-600 px-2">Photo Library</button>
             </a>
           </div>
