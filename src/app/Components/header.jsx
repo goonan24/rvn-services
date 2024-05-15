@@ -17,6 +17,9 @@ export default function Home() {
             <a href="https://forms.gle/14NRyWUkZSNk8E8S8">
             <button className="hover:bg-cyan-600 px-2">Schedule a Service</button>
             </a>
+            <a href="https://photos.app.goo.gl/9jPL6HWqYnpxLbNe8">
+            <button className="hover:bg-cyan-600 px-2">Photo Library</button>
+            </a>
           </div>
         </main>
   
