@@ -12,7 +12,10 @@ export default function Home() {
           </div>
           <div className="text-center bg-orange-600">
             <a href="https://forms.gle/xXAN1W5zPhgNR8MM9">
-            <button className="hover:bg-cyan-600">Please Leave a Review</button>
+            <button className="hover:bg-cyan-600 px-2">Please Leave a Review</button>
+            </a>
+            <a href="https://forms.gle/14NRyWUkZSNk8E8S8">
+            <button className="hover:bg-cyan-600 px-2">Schedule a Service</button>
             </a>
           </div>
         </main>

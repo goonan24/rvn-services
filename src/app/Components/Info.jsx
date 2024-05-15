@@ -14,7 +14,7 @@ export default function Home() {
             </div>
             <div id = "block2">
               <h2>Coustomer Reviews</h2>
-              <p> EXAMPLE </p>
+              <p> </p>
             </div>
             <div>
                 <h2>photo carasoale</h2>

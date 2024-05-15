@@ -15,3 +15,6 @@ export default function Home() {
   );
 }
 
+
+// use npx vercel --prod after you make a change to redeploy it
+
