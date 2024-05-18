@@ -1,27 +1,22 @@
+import Image from 'next/image';
+
 export default function Home() {
-    return (
-      
-        <main>
-          <div className="text-center bg-orange-600">
-            <h1 className="text-2xl">
-              <a href="https://homecoming.psu.edu/">RVN Services</a>
-            </h1>
-            <h2 className="text-xl">
-              <a>24/7 Service for the Tri-State Area</a>
-            </h2>
-          </div>
-          <div className="text-center bg-orange-600">
-            <a href="https://forms.gle/xXAN1W5zPhgNR8MM9">
-            <button className="hover:bg-cyan-600 px-2">Please Leave a Review</button>
-            </a>
-            <a href="https://forms.gle/3vS4PChLoM8Ni87r5">
-            <button className="hover:bg-cyan-600 px-2">Schedule a Service</button>
-            </a>
-            <a href="https://photos.app.goo.gl/3Lq4qY2shEiCoxw69">
-            <button className="hover:bg-cyan-600 px-2">Photo Library</button>
-            </a>
-          </div>
-        </main>
-  
-    );
-  }
+  return (
+    <main className="flex flex-col items-center justify-center bg-orange-600 text-center px-1 py-1">
+      <div className="mb-1">
+        <Image src="/Rvnlogo.png" alt="Description of image" width={1000} height={100} />
+      </div>
+      <div className="flex flex-row gap-1">
+        <a href="https://forms.gle/xXAN1W5zPhgNR8MM9">
+          <button className="hover:bg-cyan-600 px-4 py-1 bg-white text-black text-sm">Please Leave a Review</button>
+        </a>
+        <a href="https://photos.app.goo.gl/3Lq4qY2shEiCoxw69">
+          <button className="hover:bg-cyan-600 px-4 py-1 bg-white text-black text-sm">Photo Library</button>
+        </a>
+        <a href="https://forms.gle/3vS4PChLoM8Ni87r5" className='items-center justify-center'>
+          <button className="hover:bg-cyan-600 px-4 py-1 bg-white text-black text-sm">Schedule a Service</button>
+        </a>
+      </div>
+    </main>
+  );
+}
