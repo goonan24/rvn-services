@@ -42,7 +42,7 @@ export default function Home() {
 
     return (
         <main>
-            <div className="grid grid-cols-3 gap-4 text-left align-baseline flex-col sm:grid-rows-3">
+            <div className="grid grid-cols-3 gap-4 text-left align-baseline flex-col sm:grid-cols-1">
                 <div>
                     <h1 className="text-xl underline">RVN Services</h1>
                     <p>COLLISION REPAIR</p>
